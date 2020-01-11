@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is how you add Sass support to your react app bootstrapped with create-react-app --template typescript
+
+## Install typescript globally if you have not done so yet
+
+### `sudo npm install -g typescript`
+
+## Then create react app as you woul dnormally do with create-react-app
+
+### `npx create-react-app@latest my-react-ts-app --template typescript
+
+### `cd my-react-ts-app`
+
+### `yarn add node-sass`
+
+## Change all the css files and import references to .scss
+
+## Create Sass code for your styles as you would normally do in any Sass project
+
+### `yarn build`
+
+### `yarn global add serve`
+
+### `serve -s build`
 
 ## Available Scripts
 
@@ -33,12 +55,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Happy coding
